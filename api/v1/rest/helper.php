@@ -82,6 +82,9 @@ function getHttpCodeDescription($httpResponseCode)
         case 200:
             $description = "ok";
             break;
+        case 201:
+            $description = "created";
+            break;
         case 400:
             $description = "bad request";
             break;
